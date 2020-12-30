@@ -64,12 +64,28 @@
     </view>
   </view>
 
+  <!-- 支付框 -->
+  <Popup bind:show="toggle"
+         isShowPopup="{{isShowPopup}}">
+  </Popup>
+  <view class="pay-layout"
+        wx:if="{{isShowPopup}}">
+    <input type="number"
+           password="true"
+           maxlength="{{6}}"
+           adjust-position="{{false}}"
+           focus="{{autoFocus}}"
+           confirm-type="done"
+           bindinput="pay"
+           bindblur="pay" />
+  </view>
 
 
   <!-- 提交栏 -->
   <view class="submit-wrap">
     <view class="submit-btn"
-          bindtap="pay">
+          bindtap="toggle"
+          data-is-show="true">
       立即结算
     </view>
   </view>

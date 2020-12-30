@@ -13,12 +13,15 @@
   </view>
   <view class="container"
         wx:if="{{orderData.length != 0 && tabIndex == 0}}">
-    <OrderItem wx:for="{{orderData}}"
-               wx:key="index"
-               item="{{item}}"
-               data-item="{{item}}"
-               catchtouchstart="toOrderDetail">
-    </OrderItem>
+    <scroll-view scroll-y="true"
+                 style="height: 100%;">
+      <OrderItem wx:for="{{orderData}}"
+                 wx:key="index"
+                 item="{{item}}"
+                 data-item="{{item}}"
+                 bindtap="toOrderDetail">
+      </OrderItem>
+    </scroll-view>
   </view>
   <view class="empty"
         wx:else>

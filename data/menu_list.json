@@ -4,11 +4,13 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/shishu.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -23,12 +25,14 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/shaoya.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -43,12 +47,14 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/doufu.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -63,12 +69,14 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/qiezi.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -83,12 +91,14 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tiebanzhudu.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -103,12 +113,14 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/baiqieji.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -123,12 +135,14 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/xiangguhuaji.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -143,12 +157,14 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tiebanniurou.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -163,12 +179,14 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/zhizhuniunan.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -183,12 +201,14 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/shousiji.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -203,12 +223,14 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tejiadoufufan.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -223,12 +245,14 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/qingguagalijirouchaoroufan.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -243,12 +267,14 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/baiqiejihuotuidanfan.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -263,12 +289,14 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/default.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -283,12 +311,14 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tejiadoufufan.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -303,12 +333,14 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/default.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -323,12 +355,14 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tejiadoufufan.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -343,12 +377,14 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tejiadoufufan.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -363,12 +399,14 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tejiadoufufan.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -383,12 +421,14 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tejiadoufufan.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -403,12 +443,14 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tejiadoufufan.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -423,12 +465,14 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tejiadoufufan.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -443,12 +487,14 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tejiadoufufan.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -463,12 +509,14 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tejiadoufufan.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -483,12 +531,14 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tejiadoufufan.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -503,12 +553,14 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tejiadoufufan.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -523,11 +575,13 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tejiadoufufan.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -542,11 +596,13 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tejiadoufufan.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -561,11 +617,13 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tejiadoufufan.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -580,11 +638,13 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tejiadoufufan.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -599,11 +659,13 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/default.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -618,11 +680,13 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tejiadoufufan.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -637,11 +701,13 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/default.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -657,11 +723,13 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/default.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -676,11 +744,13 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/default.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -695,11 +765,13 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/xiangguhuaji.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -714,11 +786,13 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/xiangguhuaji.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -733,11 +807,13 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tiebanzhudu.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -752,11 +828,13 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/doufu.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -771,11 +849,13 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/baiqieji.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],
@@ -790,11 +870,13 @@
   "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/weitanai.png",
   "rules": [
     {
-      "title": "带走",
+      "title": "配菜",
       "currentIndex": -1,
       "rule": [
-        "打包",
-        "堂食"
+        "葱",
+        "香菜",
+        "都要",
+        "都不要"
       ]
     }
   ],

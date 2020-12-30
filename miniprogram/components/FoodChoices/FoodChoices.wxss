@@ -134,7 +134,7 @@
   background-color: #FD5232;
 }
 
-.item-option:nth-child(3n) {
+.item-option:nth-of-type(4n) {
   margin-right: 0;
 }
 

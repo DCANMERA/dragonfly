@@ -32,7 +32,13 @@ Page({
     },
 
     // 备注
-    note: ''
+    note: '',
+
+    // 支付框bool
+    isShowPopup: false,
+
+    // 支付框焦点
+    autoFocus: false
   },
 
   /**
@@ -68,8 +74,23 @@ Page({
     delete app.globalData._ids
   },
 
+  /**
+   * 关闭 显示支付面板
+   */
+  toggle(e) {
+    let flag = e.currentTarget.dataset.isShow ?
+      e.currentTarget.dataset.isShow :
+      e.detail.isShow
+    flag = Boolean(flag)
+    this.setData({
+      autoFocus: flag,
+      isShowPopup: flag
+    })
+  },
 
-  //跳转到地址列表页面
+  /**
+   * 跳转到地址列表页面
+   */
   goPage() {
     app.globalData._ids = this.data._ids.join('-')
     wx.navigateTo({
@@ -179,7 +200,23 @@ Page({
   /**
    * 立即结算
    */
-  pay() {
+  pay(e) {
+    if (e.detail.value.length < 6) {
+      if (e.type == 'blur' && e.detail.value != '') {
+        wx.showToast({
+          title: '请输入正确密码',
+          icon: 'none',
+          mask: true,
+          duration: 2000
+        })
+      }
+      return
+    }
+
+    this.setData({
+      isShowPopup: false
+    })
+
     wx.showLoading({
       title: '加载中...',
       mask: true
@@ -207,11 +244,20 @@ Page({
 
         // 判断结果返回的stats.removed
         if (result.result.stats.removed > 0) {
-
-          // 添加订单成功
-          wx.switchTab({
-            url: '../order/order'
+          wx.showToast({
+            title: '支付成功',
+            mask: true,
+            icon: 'success',
+            duration: 1000
           })
+
+          setTimeout(() => {
+
+            // 添加订单成功
+            wx.switchTab({
+              url: '../order/order'
+            })
+          }, 1500)
         } else {
           wx.showToast({
             title: '结算失败',

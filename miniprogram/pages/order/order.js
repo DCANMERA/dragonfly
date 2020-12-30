@@ -56,10 +56,6 @@ Page({
    * 获取订单数据
    */
   getOrderData() {
-    wx.showLoading({
-      title: '加载中...',
-      mask: true
-    })
 
     //调用云函数[get_order]
     wx.cloud.callFunction({
@@ -69,7 +65,6 @@ Page({
         count: this.data.count
       },
       success: result => {
-        wx.hideLoading()
         result.result.data.map(v => {
 
           // 处理订单日期
@@ -92,7 +87,6 @@ Page({
         })
       },
       fail: err => {
-        wx.hideLoading()
         console.log('getOrderData err ==> ', err)
       }
     })
