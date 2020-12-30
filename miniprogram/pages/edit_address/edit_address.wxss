@@ -1,0 +1,69 @@
+@import "./edit_address.skeleton.wxss";
+
+.edit-address {
+  padding: 20rpx;
+}
+
+.receiver {
+  font-size: 28rpx;
+  color: #0d0d0d;
+  width: 120rpx;
+  line-height: 60rpx;
+}
+
+.ipt {
+  width: calc(100% - 140rpx);
+  height: 60rpx;
+  margin-left: 20rpx;
+  line-height: 60rpx;
+}
+
+.info-item {
+  background-color: #fff;
+  padding: 20rpx;
+}
+
+.ipt-text {
+  height: 60rpx;
+  background-color: transparent;
+  font-size: 28rpx;
+  color: #666;
+  line-height: 60rpx;
+}
+
+.picker-box {
+  height: 60rpx;
+  font-size: 28rpx;
+  line-height: 60rpx;
+  color: #666;
+}
+
+.address-info {
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+
+.default-address {
+  margin-top: 80rpx;
+  padding: 20rpx;
+  background-color: #fff;
+  border-radius: 20rpx;
+}
+
+.default-title {
+  height: 62rpx;
+  font-size: 28rpx;
+  color: #0d0d0d;
+  line-height: 62rpx;
+}
+
+.remove-btn {
+  margin-top: 130rpx;
+  background-color: #eeeeee;
+  color: #666;
+  height: 80rpx;
+  border-radius: 40rpx;
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 28rpx;
+}

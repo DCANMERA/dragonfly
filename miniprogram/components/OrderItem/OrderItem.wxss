@@ -1,0 +1,58 @@
+.order-item{
+  padding: 20rpx 30rpx;
+  margin: 20rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+}
+
+.order-item .item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1rpx dotted #E0E0E0;
+  padding: 30rpx 0;
+  position: relative;
+  color: #666666;
+}
+
+.order-item .item:first-of-type{
+  border-bottom: 1rpx solid #E5E5E5;
+}
+
+.order-item .item:last-of-type{
+  border-bottom: none;
+}
+
+.order-item .item .firm-name{
+  color: #0d0d0d;
+  font-size: 32rpx;
+  font-weight: 600;
+}
+
+.order-item .item .order-time{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 28rpx;
+}
+
+.order-item .item .order-type,
+.order-item .item .order-num,
+.order-item .item .order-price{
+  font-size: 28rpx;
+}
+
+.order-item .item .order-num{
+  margin-right: 100rpx;
+}
+
+.order-item .item .order-total,
+.order-item .item .order-total-price{
+  color: #0d0d0d;
+  font-size: 32rpx;
+  font-weight: 600;
+}
+
+.order-item .item .order-total-price{
+  color: #FD5232;
+}

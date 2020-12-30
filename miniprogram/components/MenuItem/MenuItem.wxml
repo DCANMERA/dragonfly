@@ -1,0 +1,22 @@
+<view class="menu-item">
+  <view class="content">
+    <view class="menu-img">
+      <image class="img {{menu.sellOut ? 'sellOut' : ''}}"
+             mode="widthFix"
+             src="{{menu.img}}" />
+    </view>
+    <view class="info">
+      <view>
+        <view class="info-tip">{{menu.name}}</view>
+        <view class="info-subtip">月销量：54</view>
+      </view>
+      <view class="price {{menu.sellOut ? 'sellOut' : ''}}">￥{{menu.price}}</view>
+    </view>
+    <view class="rules">
+      <view class="select {{menu.sellOut ? 'sellOut' : ''}}"
+            bindtap="showRulesLayout">
+        {{menu.sellOut ? '已售罄' : '选规格'}}
+      </view>
+    </view>
+  </view>
+</view>

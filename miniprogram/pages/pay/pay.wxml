@@ -1,0 +1,77 @@
+<view class="pay">
+
+  <!-- 订单地址 -->
+  <view class="pay-address"
+        wx:if="{{way}}">
+    <view class="address-title">
+      <text>选择收货地址</text>
+      <text class="iconfont icon-enter icon"></text>
+    </view>
+    <view class="address-info"
+          wx:if="{{addressInfo.detailAddress}}"
+          bindtap="goPage">
+      <view class="user">
+        <text class="name line-ellipsis">{{addressInfo.receiver}}</text>
+        <text class="default"
+              wx:if="{{addressInfo.isDefault}}">默认</text>
+      </view>
+      <view class="phone">{{addressInfo.phone}}</view>
+      <view class="address">{{addressInfo.detailAddress}}</view>
+    </view>
+  </view>
+
+  <!-- 订单列表 -->
+  <view class="order-wrap">
+    <view class="receiver order-title">订单详情 （{{ way ? '外带' : '堂食'}}）</view>
+    <view class="order-product">
+      <view class="order-product-item"
+            wx:for="{{productData}}"
+            wx:key="index">
+        <view class="pro-img">
+          <image class="auto-img"
+                 mode="scaleToFill"
+                 src="{{item.product.img}}">
+          </image>
+        </view>
+        <view class="pro-info">
+          <view class="pro-name line-ellipsis">{{item.name}}</view>
+          <view class="pro-wrap">
+            <view class="pro-rule line-ellipsis">{{item.rule}}</view>
+            <view class="content">
+              <view class="pro-count line-ellipsis">x{{item.count}}</view>
+              <view class="pro-price line-ellipsis">￥{{item.product.price}}</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <!-- 备注栏 -->
+    <view class="note">
+      <view>备注</view>
+      <textarea auto-height
+                bindinput="getNoteValue">
+      </textarea>
+    </view>
+
+    <!-- 总价 -->
+    <view class="order-text">
+      <view class="price-num">共计 {{proInfo.count}} 件商品</view>
+      <view>
+        <text class="">合计</text>
+        <text class="total">￥{{proInfo.total}}</text>
+      </view>
+    </view>
+  </view>
+
+
+
+  <!-- 提交栏 -->
+  <view class="submit-wrap">
+    <view class="submit-btn"
+          bindtap="pay">
+      立即结算
+    </view>
+  </view>
+
+</view>

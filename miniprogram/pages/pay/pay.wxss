@@ -1,0 +1,161 @@
+.pay {
+  padding-bottom: 120rpx;
+}
+
+.pay-address {
+  background-color: #fff;
+  padding: 20rpx;
+}
+
+.address-title {
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 32rpx;
+  color: #444;
+}
+
+.address-title .icon {
+  font-size: 32rpx;
+}
+
+.address-info {
+  margin-top: 20rpx;
+}
+
+.user {
+  font-size: 28rpx;
+  color: #0d0d0d;
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  max-width: 50%;
+}
+
+.default {
+  padding: 4rpx 6rpx;
+  font-size: 20rpx;
+  color: #fff;
+  background-color: #FD5232;
+  text-align: center;
+  border-radius: 10rpx;
+  margin-left: 15rpx;
+  margin-top: 4rpx;
+}
+
+.phone {
+  color: #444;
+  font-size: 26rpx;
+  margin-bottom: 10rpx;
+  margin-top: 10rpx;
+}
+
+.address {
+  color: #999;
+  font-size: 26rpx;
+}
+
+.order-wrap {
+  padding: 30rpx;
+}
+
+
+.order-title {
+  height: 60rpx;
+  line-height: 60rpx;
+  margin-bottom: 20rpx;
+  font-size: 34rpx;
+  font-size: 600;
+}
+
+.order-product {}
+
+.order-product-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30rpx;
+}
+
+.pro-img {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+
+.auto-img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+
+.pro-info {
+  margin-left: 30rpx;
+  flex: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.pro-name {
+  color: #0d0d0d;
+  font-size: 32rpx;
+}
+
+
+.pro-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pro-wrap .pro-rule {
+  color: #999;
+  font-size: 28rpx;
+}
+
+.pro-wrap .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pro-count {
+  padding: 0 20rpx;
+  height: 48rpx;
+  color: #999;
+  font-size: 24rpx;
+  line-height: 48rpx;
+}
+
+.pro-price {
+  color: #FD5232;
+  font-size: 28rpx;
+}
+
+.note {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30rpx;
+}
+
+.note textarea {
+  min-height: 60rpx;
+  border: 1rpx solid #eee;
+}
+
+.order-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 32rpx;
+}
+
+.total {
+  color: #FD5232;
+  font-size: 38rpx;
+}

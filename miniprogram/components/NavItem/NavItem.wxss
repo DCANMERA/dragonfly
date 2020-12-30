@@ -1,0 +1,9 @@
+.nav-item{
+  width: 104rpx;
+  padding: 30rpx 40rpx;
+  overflow: hidden;
+  text-align: left;
+  font-size: 26rpx;
+  color: #999999;
+  background-color: #FAFAFA;
+}

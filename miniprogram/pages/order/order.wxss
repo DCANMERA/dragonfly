@@ -1,0 +1,56 @@
+page,.order{
+  height: 100%;
+  background-color: #f2f2f2;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.order{
+  padding-top:120rpx;
+}
+
+.order .header{
+  justify-content: space-around;
+  position: fixed;
+  height: 98rpx;
+}
+
+.order .header:after{
+  content: '';
+  display: block;
+  width: 60rpx;
+  height: 4rpx;
+  background-color: #FD5232;
+  position: absolute;
+  bottom: 4rpx;
+  transition: all .3s;
+}
+
+.order .header.eat-in:after{
+  left: 175rpx;
+  left: 23vw;
+}
+
+.order .header.takeout:after{
+  left: 520rpx;
+  left: 69vw;
+}
+
+.order .header .item{
+  font-size: 30rpx;
+  color: #999999;
+  padding: 20rpx 0;
+}
+
+.order .header .item.active{
+  color: #0d0d0d;
+  font-weight: 700;
+}
+
+.order .container{
+  background-color: #f2f2f2;
+  height: 100%;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+

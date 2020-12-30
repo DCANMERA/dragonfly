@@ -1,0 +1,53 @@
+<!--
+此文件为开发者工具生成，生成时间: 2020/12/27 下午2:02:16 
+使用方法：
+在 E:\项目\微信小程序\dragonfly\miniprogram\pages\address\address.wxml 引入模板
+
+```
+<import src="address.skeleton.wxml"/>
+<template is="skeleton" wx-if="{{loading}}" />
+```
+
+在 E:\项目\微信小程序\dragonfly\miniprogram\pages\address\address.wxss 中引入样式
+```
+@import "./address.skeleton.wxss";
+```
+
+更多详细信息可以参考文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/skeleton.html
+-->
+<template name="skeleton">
+  <view class="sk-container">
+    <view class="address">
+      <view class="container">
+        <view class="address-item">
+          <view class="address-info" data-_id="9f2a34705fe81f2300bf7a1e27d8227d">
+            <view class="user">
+              <text class="line-ellipsis sk-transparent sk-text-14-2857-748 sk-text">DCanmera</text>
+              <text class="default sk-transparent sk-text-14-2857-754 sk-text" style="background-position-x: 50%;">默认</text>
+            </view>
+            <view class="phone line-ellipsis sk-transparent sk-text-14-2857-706 sk-text">17876202739</view>
+            <view class="detail line-ellipsis sk-transparent sk-text-14-2857-536 sk-text">北京市北京市东城区八九q</view>
+          </view>
+          <view class="edit">
+            <text class="iconfont icon-brush edit-icon sk-pseudo sk-pseudo-circle" data-_id="9f2a34705fe81f2300bf7a1e27d8227d" data-url="../edit_address/edit_address"></text>
+          </view>
+        </view>
+        <view class="address-item">
+          <view class="address-info" data-_id="eb0c51035fe8235600bb14913876aa26">
+            <view class="user">
+              <text class="line-ellipsis sk-transparent sk-text-14-2857-697 sk-text">DCAnm</text>
+            </view>
+            <view class="phone line-ellipsis sk-transparent sk-text-14-2857-188 sk-text">17862920978</view>
+            <view class="detail line-ellipsis sk-transparent sk-text-14-2857-287 sk-text">北京市北京市东城区dsd</view>
+          </view>
+          <view class="edit">
+            <text class="iconfont icon-brush edit-icon sk-pseudo sk-pseudo-circle" data-_id="eb0c51035fe8235600bb14913876aa26" data-url="../edit_address/edit_address"></text>
+          </view>
+        </view>
+      </view>
+      <view class="submit-wrap" data-url="../edit_address/edit_address">
+        <view class="submit-btn sk-transparent sk-text-30-0000-230 sk-text" style="background-position-x: 50%;">新增地址</view>
+      </view>
+    </view>
+  </view>
+</template>

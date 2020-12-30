@@ -1,0 +1,3 @@
+<view class="nav-item">
+   <slot></slot>
+</view>

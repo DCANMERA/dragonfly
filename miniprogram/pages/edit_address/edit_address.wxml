@@ -1,0 +1,74 @@
+<import src="edit_address.skeleton.wxml"/>
+<template is="skeleton" wx-if="{{loading}}" />
+<view class="edit-address" wx:else>
+  <view class="info-item">
+    <view class="fl receiver">收货人</view>
+    <view class="fl ipt">
+      <input class="ipt-text"
+             placeholder="输入收货人"
+             value="{{addressInfo.receiver}}"
+             bindchange="changeIptText"
+             data-key="receiver" />
+    </view>
+  </view>
+  <view class="info-item clearfix">
+    <view class="fl receiver">手机号</view>
+    <view class="fl ipt">
+      <input class="ipt-text"
+             placeholder="输入手机号"
+             value="{{addressInfo.phone}}"
+             data-key="phone"
+             bindchange="changeIptText" />
+    </view>
+  </view>
+  <view class="info-item clearfix">
+    <view class="fl receiver">地区</view>
+    <view class="fl ipt">
+      <picker class="picker-box"
+              mode="region"
+              data-key="area"
+              bindchange="changeIptText">
+        {{addressInfo.area}}
+      </picker>
+    </view>
+  </view>
+  <view class="info-item clearfix">
+    <view class="fl receiver">详细地址</view>
+    <view class="fl ipt">
+      <input class="ipt-text"
+             placeholder="输入详细地址"
+             data-key="detail"
+             bindchange="changeIptText"
+             value="{{addressInfo.detail}}" />
+    </view>
+  </view>
+  <view class="default-address clearfix">
+    <view class="fl default-title">设置默认地址</view>
+    <view class="fr">
+      <switch checked="{{addressInfo.isDefault}}"
+              data-key="isDefault"
+              bindchange="changeIptText"
+              color="#FD5232" />
+    </view>
+  </view>
+
+  <view class="remove-btn"
+        wx:if="{{_id}}"
+        bindtap="removeAddress">
+    删除地址
+  </view>
+  <view class="submit-wrap"
+        wx:if="{{_id}}">
+    <view class="submit-btn"
+          bindtap="saveAddress">
+      保存地址
+    </view>
+  </view>
+  <view class="submit-wrap"
+        wx:else>
+    <view class="submit-btn"
+          bindtap="commit">
+      提交
+    </view>
+  </view>
+</view>

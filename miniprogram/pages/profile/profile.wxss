@@ -1,0 +1,74 @@
+page{
+  height: 100%;
+}
+
+.profile{
+  overflow: hidden;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.profile .header{
+  height: 300rpx;
+  justify-content: space-between;
+  background-color: #FD5232;
+  /* background-image: linear-gradient(to bottom,#FD5232,#fd5231); */
+  position: static;
+}
+
+.profile .userName{
+  color: #ffffff;
+  font-size: 36rpx;
+  font-weight: 500;
+}
+
+.profile .userImg{
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile .container{
+  padding: 30rpx;
+}
+
+.profile .container .item{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30rpx 0;
+}
+.profile .container .item:first-of-type{
+  margin-top: 0;
+}
+
+.profile .container .item:last-of-type{
+  margin-bottom: 0;
+}
+
+.profile .container .item .item-left{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.profile .container .item .item-left .icon{
+  color: #FD5232;
+  font-size: 52rpx;
+  margin-top: 4rpx;
+}
+
+.profile .container .item .item-left .text{
+  margin-left: 10rpx;
+  font-size: 32rpx;
+  color: #0d0d0d;
+}
+
+.profile .container .item .item-right .icon{
+  color: #999999;
+}

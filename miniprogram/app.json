@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/order/order",
+    "pages/profile/profile",
+    "pages/pay/pay",
+    "pages/orderDetail/orderDetail",
+    "pages/search/search",
+    "pages/address/address",
+    "pages/edit_address/edit_address",
+    "pages/feedback/feedback"
+  ],
+  "window": {
+    "backgroundColor": "#FFFFFF",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTitleText": "蜻蜓点餐",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": false
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#0D0D0D",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "点餐",
+        "iconPath": "./images/tabBar/home.png",
+        "selectedIconPath": "./images/tabBar/home-active.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "订单",
+        "iconPath": "./images/tabBar/order.png",
+        "selectedIconPath": "./images/tabBar/order-active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "./images/tabBar/profile.png",
+        "selectedIconPath": "./images/tabBar/profile-active.png"
+      }
+    ]
+  }
+}

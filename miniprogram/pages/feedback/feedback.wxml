@@ -1,0 +1,5 @@
+<view class="feedback">
+  <view class="container">
+    <text class="iconfont icon-customerservice_fill">客服在线：400-5545-3423</text>
+  </view>
+</view>

@@ -1,0 +1,85 @@
+/* 头部 */
+.header {
+  box-sizing: border-box;
+  padding: 0 30rpx;
+  height: 120rpx;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  box-shadow: 0 4rpx 32rpx 0 rgba(31, 35, 41, .05);
+  background-color: #ffffff;
+  z-index: 99;
+}
+
+/* 文本隐藏 */
+.line-ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* 盒子阴影 */
+.box-shadow {
+  box-shadow: 0 4rpx 32rpx 0 rgba(31, 35, 41, .05);
+}
+
+/* 空状态 */
+.empty {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9;
+  flex-direction: column;
+  color: #999999;
+  font-size: 30rpx;
+}
+
+.empty .iconfont {
+  font-size: 180rpx;
+  color: #dedede;
+}
+
+/* 提交按钮 */
+.submit-wrap {
+  position: fixed;
+  bottom: 30rpx;
+  left: 0;
+  padding: 0 20rpx;
+  width: calc(100% - 40rpx);
+}
+
+.submit-btn {
+  background-color: #FD5232;
+  text-align: center;
+  line-height: 80rpx;
+  height: 80rpx;
+  border-radius: 40rpx;
+  color: #fff;
+}
+
+/* 左浮 */
+.fl {
+  float: left;
+}
+
+/* 右浮 */
+.fr {
+  float: right;
+}
+
+/* 清除浮动 */
+.clearfix {
+  clear: both;
+  zoom: 1;
+  display: block;
+}

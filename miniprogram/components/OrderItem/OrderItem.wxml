@@ -1,0 +1,23 @@
+<view class="order-item">
+  <view class="item">
+    <view class="firm-name">美味街</view>
+    <view class="order-time">
+      <text class="iconfont icon-time"></text>
+      <text>{{item.date}}</text>
+    </view>
+  </view>
+  <view class="item"
+        wx:for="{{item.products}}"
+        wx:for-item="v"
+        wx:key="index">
+    <view class="order-type">{{v.name}}</view>
+    <view>
+      <text class="order-num">×{{v.count}}</text>
+      <text class="order-price">￥{{v.price}}</text>
+    </view>
+  </view>
+  <view class="item">
+    <view class="order-total">合计</view>
+    <view class="order-total-price">￥{{item.total}}</view>
+  </view>
+</view>

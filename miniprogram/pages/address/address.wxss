@@ -1,0 +1,88 @@
+@import "./address.skeleton.wxss";
+
+page,
+.address {
+  height: 100%;
+}
+
+.address {
+  padding: 20rpx 20rpx 120rpx;
+  background-color: #f2f2f2;
+}
+
+.container {
+  background-color: #f2f2f2;
+}
+
+.address-item {
+  background-color: #fff;
+  padding: 20rpx;
+  margin-bottom: 20rpx;
+  border-radius: 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.address-item:last-child {
+  margin-bottom: 0;
+}
+
+.address-info {
+  width: calc(100% - 60rpx);
+  margin-right: 20rpx;
+}
+
+.user {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #0d0d0d;
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  max-width: 50%;
+}
+
+.default {
+  padding: 4rpx 6rpx;
+  font-size: 20rpx;
+  color: #fff;
+  background-color: #FD5232;
+  text-align: center;
+  border-radius: 10rpx;
+  margin-left: 15rpx;
+  margin-top: 4rpx;
+}
+
+.phone {
+  color: #666666;
+  font-size: 28rpx;
+  margin: 40rpx 0;
+}
+
+.detail {
+  font-size: 28rpx;
+  color: #999;
+}
+
+.edit {
+  width: 40rpx;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.edit-icon {
+  font-size: 45rpx;
+  color: #666666;
+  line-height: 0;
+}
+
+.address .submit-wrap {
+  z-index: 10;
+}

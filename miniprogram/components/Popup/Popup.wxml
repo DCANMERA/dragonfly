@@ -1,0 +1,3 @@
+<view class="popup" bindtap="popupShow" hidden="{{!isShowPopup}}">
+  <slot></slot>
+</view>

@@ -1,0 +1,150 @@
+@import '../../style/iconfont.wxss';
+@import '../../style/common.wxss';
+
+.rules {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 30rpx;
+  padding-bottom: 20rpx;
+  background-color: #fff;
+  z-index: 2002;
+  overflow: hidden;
+  border-radius: 20rpx 20rpx 0 0;
+}
+
+.container {
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 45rpx;
+  color: #999999;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.food-img {
+  width: 160rpx;
+  height: 160rpx;
+  background-color: #ddd;
+}
+
+.auto-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.info {
+  margin-left: 20rpx;
+}
+
+.info-name {
+  font-weight: 36rpx;
+  font-weight: bold;
+  color: #0d0d0d;
+  max-width: 440rpx;
+}
+
+.info-rule {
+  margin-top: 20rpx;
+  color: #999;
+  font-size: 30rpx;
+}
+
+.info-price {
+  margin-top: 20rpx;
+  font-size: 36rpx;
+  color: #FD5232;
+  font-weight: bold;
+}
+
+.count-wrap {
+  padding-top: 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 32rpx;
+}
+
+.count-text {
+  color: #0d0d0d;
+}
+
+.count {
+  padding: 0 10rpx;
+  height: 48rpx;
+  text-align: center;
+  color: #FD5232;
+  font-size: 36rpx;
+}
+
+.count:first-of-type {
+  font-size: 42rpx;
+  color: #999;
+  padding: 0;
+}
+
+.count:last-of-type {
+  font-size: 42rpx;
+  padding: 0;
+}
+
+.rule-content {
+  max-height: 480rpx;
+  min-height: 180rpx;
+  overflow-y: scroll;
+}
+
+.rule-item {
+  clear: both;
+}
+
+.item-title {
+  color: #0d0d0d;
+  font-size: 32rpx;
+  margin: 20rpx 0;
+}
+
+.item-option {
+  width: calc(100% / 3 - 20rpx + 20rpx / 3);
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  color: #0d0d0d;
+  background-color: #F9F8F8;
+  margin-right: 20rpx;
+  margin-bottom: 20rpx;
+  font-size: 30rpx;
+  float: left;
+  border-radius: 10rpx;
+}
+
+.item-option.active {
+  color: #ffffff;
+  background-color: #FD5232;
+}
+
+.item-option:nth-child(3n) {
+  margin-right: 0;
+}
+
+.add {
+  margin-top: 40rpx;
+  height: 72rpx;
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 30rpx;
+  color: #fff;
+  background-color: #FD5232;
+  border-radius: 36rpx;
+}

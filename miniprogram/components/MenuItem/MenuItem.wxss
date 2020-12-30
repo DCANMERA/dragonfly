@@ -1,0 +1,86 @@
+.menu-item{
+  padding-bottom: 60rpx;
+}
+
+.menu-item .content{
+  position: relative;
+  height: 160rpx;
+}
+
+.menu-item .menu-img{
+  width: 160rpx;
+  height: 100%;
+  border-radius: 10rpx;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.menu-item .menu-img .img{
+  width: 100%;
+  display: block;
+  height: 100% !important;
+}
+
+.menu-item .info{
+  margin-left: 180rpx;
+  max-width: 50%;
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.menu-item .info .info-tip,
+.menu-item .info .info-subtip,
+.menu-item .info .price{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.menu-item .info .info-tip{
+  color: #0d0d0d;
+  font-weight: 600;
+}
+
+.menu-item .info .info-subtip{
+  color: #999999;
+  font-size: 20rpx;
+}
+
+.menu-item .info .price{
+  color: #FD5232;
+  font-weight: 600;
+}
+
+.menu-item .rules{
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.menu-item .rules .select{
+  padding: 8rpx 20rpx;
+  font-size: 24rpx;
+  background-color: #FD5232;
+  border-radius: 40rpx;
+  color: #ffffff;
+}
+
+.menu-item .rules .select.sellOut{
+  background-color: #9e9e9e;
+  color: #ffffff !important;
+}
+
+.menu-item .sellOut{
+  opacity: .6 !important;
+  color: #9e9e9e !important;
+}

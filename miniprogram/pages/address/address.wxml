@@ -1,0 +1,42 @@
+<import src="address.skeleton.wxml"/>
+<template is="skeleton" wx-if="{{loading}}" />
+
+<view class="address" wx:else>
+  <view class="container"
+        wx:if="{{addressList.length != 0}}">
+    <view class="address-item"
+          wx:for="{{addressList}}"
+          wx:key="index">
+      <view class="address-info"
+            data-_id="{{item._id}}"
+            bindtap="selectAddress">
+        <view class="user">
+          <text class="line-ellipsis">{{item.receiver}}</text>
+          <text class="default"
+                wx:if="{{item.isDefault}}">默认</text>
+        </view>
+        <view class="phone line-ellipsis">{{item.phone}}</view>
+        <view class="detail line-ellipsis">{{item.detailAddress}}</view>
+      </view>
+      <view class="edit">
+        <text class="iconfont icon-brush edit-icon"
+              data-_id="{{item._id}}"
+              bindtap="goPage"
+              data-url="{{url}}">
+        </text>
+      </view>
+    </view>
+  </view>
+
+  <view class="empty"
+        wx:else>
+    <text class="iconfont icon-kongbaidizhi"></text>
+    <text>暂无地址数据</text>
+  </view>
+
+  <view class="submit-wrap"
+        bindtap="goPage"
+        data-url="{{url}}">
+    <view class="submit-btn">新增地址</view>
+  </view>
+</view>

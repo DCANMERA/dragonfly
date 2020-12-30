@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "MenuItem": "../../components/MenuItem/MenuItem",
+    "Popup": "../../components/Popup/Popup",
+    "FoodChoices": "../../components/FoodChoices/FoodChoices"
+  },
+  "navigationBarTitleText":"搜索"
+}

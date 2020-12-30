@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "MenuItem": "../../components/MenuItem/MenuItem",
+    "NavItem": "../../components/NavItem/NavItem",
+    "Popup": "../../components/Popup/Popup",
+    "FoodChoices": "../../components/FoodChoices/FoodChoices"
+  },
+  "enablePullDownRefresh": false,
+  "navigationBarTitleText": "美味街"
+}

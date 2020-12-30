@@ -1,0 +1,59 @@
+{
+  "title": "销量排行",
+  "type": "xiaoliang",
+  "pageNo": 1
+}
+
+{
+  "title": "每日特价每日换新",
+  "type": "tejia",
+  "pageNo": 2
+}
+
+{
+  "title": "任意双拼",
+  "type": "shuangpin",
+  "pageNo": 3
+}
+
+{
+  "title": "现炒快餐",
+  "type": "xianchao",
+  "pageNo": 4
+}
+
+{
+  "title": "炒粉类",
+  "type": "chaofen",
+  "pageNo": 5
+}
+
+{
+  "title": "煲仔",
+  "type": "baozai",
+  "pageNo": 6
+}
+
+{
+  "title": "火热铁板",
+  "type": "huoretieban",
+  "pageNo": 7
+}
+
+{
+  "title": "特色小炒",
+  "type": "tesexiaochao",
+  "pageNo": 8
+}
+
+{
+  "title": "小炒",
+  "type": "xiaochao",
+  "pageNo": 9
+}
+
+{
+  "title": "饮料区",
+  "type": "yinliao",
+  "pageNo": 10
+}

@@ -1,0 +1,41 @@
+<view class="search">
+  <view class="header">
+    <view class="wrap">
+      <text class="iconfont icon-search icon"></text>
+      <input type="text"
+             focus="true"
+             placeholder="搜索你想要的菜品"
+             confirm-type="search"
+             bindconfirm="getSearchProduct"
+             value="{{searchValue}}" />
+      <text class="iconfont icon"></text>
+    </view>
+  </view>
+  <view class="history"
+        wx:if="{{history.length != 0 || searchValue == ''}}">
+    <view class="title">历史搜索</view>
+    <view class="item"
+          wx:for="{{history}}"
+          wx:key="index"
+          data-value="{{item}}"
+          bindtap="setSearchValue">{{item}}</view>
+  </view>
+  <view class="contanier"
+        wx:if="{{searchData.length != 0}}">
+    <MenuItem wx:for="{{searchData}}"
+              wx:key="index"
+              menu="{{item}}"
+              bind:show-rules="toggleRules">
+    </MenuItem>
+  </view>
+
+  <!-- 菜品规格Popup -->
+  <Popup bind:show="toggleRules"
+         isShowPopup="{{isShowPopup}}">
+  </Popup>
+  <FoodChoices wx:if="{{isShowPopup && menu.length != 0}}"
+               bindclose="toggleRules"
+               bindaddShopcart="modifyShopcartCount"
+               item="{{menu}}">
+  </FoodChoices>
+</view>

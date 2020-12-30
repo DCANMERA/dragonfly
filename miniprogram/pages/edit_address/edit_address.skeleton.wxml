@@ -1,0 +1,60 @@
+<!--
+此文件为开发者工具生成，生成时间: 2020/12/27 下午2:04:36 
+使用方法：
+在 E:\项目\微信小程序\dragonfly\miniprogram\pages\edit_address\edit_address.wxml 引入模板
+
+```
+<import src="edit_address.skeleton.wxml"/>
+<template is="skeleton" wx-if="{{loading}}" />
+```
+
+在 E:\项目\微信小程序\dragonfly\miniprogram\pages\edit_address\edit_address.wxss 中引入样式
+```
+@import "./edit_address.skeleton.wxss";
+```
+
+更多详细信息可以参考文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/skeleton.html
+-->
+<template name="skeleton">
+  <view class="sk-container">
+    <view class="edit-address">
+      <view class="info-item">
+        <view class="fl receiver sk-transparent sk-text-26-6667-60 sk-text">收货人</view>
+        <view class="fl ipt">
+          <view class="ipt-text sk-image" data-key="receiver" placeholder="输入收货人" value="true"></view>
+        </view>
+      </view>
+      <view class="info-item clearfix">
+        <view class="fl receiver sk-transparent sk-text-26-6667-259 sk-text">手机号</view>
+        <view class="fl ipt">
+          <view class="ipt-text sk-image" data-key="phone" placeholder="输入手机号" value="true"></view>
+        </view>
+      </view>
+      <view class="info-item clearfix">
+        <view class="fl receiver sk-transparent sk-text-26-6667-103 sk-text">地区</view>
+        <view class="fl ipt">
+          <view class="picker-box sk-transparent sk-text-26-6667-137 sk-text sk-image" data-key="area" mode="region">
+            选择地区
+          </view>
+        </view>
+      </view>
+      <view class="info-item clearfix">
+        <view class="fl receiver sk-transparent sk-text-26-6667-176 sk-text">详细地址</view>
+        <view class="fl ipt">
+          <view class="ipt-text sk-image" data-key="detail" placeholder="输入详细地址" value="true"></view>
+        </view>
+      </view>
+      <view class="default-address clearfix">
+        <view class="fl default-title sk-transparent sk-text-27-4194-614 sk-text">设置默认地址</view>
+        <view class="fr">
+          <switch color="#EFEFEF" data-key="isDefault"></switch>
+        </view>
+      </view>
+      <view class="submit-wrap">
+        <view class="submit-btn sk-transparent sk-text-30-0000-356 sk-text" style="background-position-x: 50%;">
+          提交
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

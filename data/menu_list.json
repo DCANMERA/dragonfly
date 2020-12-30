@@ -1,0 +1,804 @@
+{
+  "name": "蒜茸时蔬",
+  "price": 20,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/shishu.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "xiaoliang",
+  "pageNo": 1
+}
+
+{
+  "name": "脆皮烧鸭",
+  "price": 28,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/shaoya.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "xiaoliang",
+  "pageNo": 1
+}
+
+{
+  "name": "麻婆豆腐",
+  "price": 18,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/doufu.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "xiaoliang",
+  "pageNo": 1
+}
+
+{
+  "name": "红烧茄子",
+  "price": 25,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/qiezi.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "xiaoliang",
+  "pageNo": 1
+}
+
+{
+  "name": "铁板猪肚",
+  "price": 30,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tiebanzhudu.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "xiaoliang",
+  "pageNo": 1
+}
+
+{
+  "name": "白切鸡",
+  "price": 28,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/baiqieji.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "xiaoliang",
+  "pageNo": 1
+}
+
+{
+  "name": "香菇滑鸡",
+  "price": 25,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/xiangguhuaji.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "xiaoliang",
+  "pageNo": 1
+}
+
+{
+  "name": "铁板牛肉",
+  "price": 32,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tiebanniurou.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "xiaoliang",
+  "pageNo": 1
+}
+
+{
+  "name": "支竹牛腩煲",
+  "price": 30,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/zhizhuniunan.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "xiaoliang",
+  "pageNo": 1
+}
+
+{
+  "name": "手撕鸡",
+  "price": 28,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/shousiji.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "xiaoliang",
+  "pageNo": 1
+}
+
+{
+  "name": "特价麻婆豆腐饭",
+  "price": 9.50,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tejiadoufufan.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "tejia",
+  "pageNo": 2
+}
+
+{
+  "name": "情感炒肉+咖喱鸡肉饭",
+  "price": 10.88,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/qingguagalijirouchaoroufan.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "tejia",
+  "pageNo": 2
+}
+
+{
+  "name": "白切鸡+火腿蛋饭",
+  "price": 18,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/baiqiejihuotuidanfan.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "tejia",
+  "pageNo": 2
+}
+
+{
+  "name": "13元双拼",
+  "price": 13,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/default.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "shuangpin",
+  "pageNo": 3
+}
+
+{
+  "name": "任意双拼",
+  "price": 14,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tejiadoufufan.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "shuangpin",
+  "pageNo": 3
+}
+
+{
+  "name": "咖喱鸡肉饭",
+  "price": 13,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/default.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "xianchao",
+  "pageNo": 4
+}
+
+{
+  "name": "凉瓜牛肉饭",
+  "price": 15,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tejiadoufufan.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "xianchao",
+  "pageNo": 4
+}
+
+{
+  "name": "辣子鸡饭",
+  "price": 13,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tejiadoufufan.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "xianchao",
+  "pageNo": 4
+}
+
+{
+  "name": "广式叉烧饭",
+  "price": 14.68,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tejiadoufufan.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "xianchao",
+  "pageNo": 4
+}
+
+{
+  "name": "青菜炒鱿鱼饭",
+  "price": 14.68,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tejiadoufufan.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "xianchao",
+  "pageNo": 4
+}
+
+{
+  "name": "番茄炒蛋饭",
+  "price": 12,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tejiadoufufan.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "xianchao",
+  "pageNo": 4
+}
+
+{
+  "name": "黑椒牛肉饭",
+  "price": 15,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tejiadoufufan.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "xianchao",
+  "pageNo": 4
+}
+
+{
+  "name": "青瓜炒肉饭",
+  "price": 13,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tejiadoufufan.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "xianchao",
+  "pageNo": 4
+}
+
+{
+  "name": "麻婆豆腐饭",
+  "price": 12,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tejiadoufufan.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "xianchao",
+  "pageNo": 4
+}
+
+{
+  "name": "青瓜牛肉饭",
+  "price": 15,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tejiadoufufan.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "xianchao",
+  "pageNo": 4
+}
+
+{
+  "name": "咖喱鸡扒饭",
+  "price": 13,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tejiadoufufan.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "xianchao",
+  "pageNo": 4
+}
+
+{
+  "name": "蜜糖排骨饭",
+  "price": 14,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tejiadoufufan.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "xianchao",
+  "pageNo": 4
+}
+
+{
+  "name": "黑椒鸡扒饭",
+  "price": 13,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tejiadoufufan.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "xianchao",
+  "pageNo": 4
+}
+
+{
+  "name": "红烧茄子饭",
+  "price": 13,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tejiadoufufan.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "xianchao",
+  "pageNo": 4
+}
+
+{
+  "name": "香煎肉饼饭",
+  "price": 13,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tejiadoufufan.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "xianchao",
+  "pageNo": 4
+}
+
+{
+  "name": "蛋炒河粉",
+  "price": 12,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/default.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "chaofen",
+  "pageNo": 5
+}
+
+{
+  "name": "瘦肉蛋炒河粉",
+  "price": 13,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tejiadoufufan.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "chaofen",
+  "pageNo": 5
+}
+
+{
+  "name": "火腿蛋炒河粉",
+  "price": 12,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/default.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": true,
+  "type": "chaofen",
+  "pageNo": 5
+}
+
+
+{
+  "name": "咸鱼茄煲",
+  "price": 25,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/default.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "baozai",
+  "pageNo": 6
+}
+
+{
+  "name": "蒜茸娃娃菜煲",
+  "price": 25,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/default.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "baozai",
+  "pageNo": 6
+}
+
+{
+  "name": "沙姜鸡煲",
+  "price": 28,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/xiangguhuaji.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "baozai",
+  "pageNo": 6
+}
+
+{
+  "name": "香菇排骨煲",
+  "price": 28,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/xiangguhuaji.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "baozai",
+  "pageNo": 6
+}
+
+{
+  "name": "铁板猪肚",
+  "price": 30,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/tiebanzhudu.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "huoretieban",
+  "pageNo": 7
+}
+
+{
+  "name": "麻婆豆腐",
+  "price": 18,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/doufu.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "tesexiaochao",
+  "pageNo": 8
+}
+
+{
+  "name": "白切鸡",
+  "price": 28,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/baiqieji.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "xiaochao",
+  "pageNo": 9
+}
+
+{
+  "name": "维他奶",
+  "price": 28,
+  "img": "cloud://dragonfly-1gkju3dh07f850e3.6472-dragonfly-1gkju3dh07f850e3-1304340959/img/weitanai.png",
+  "rules": [
+    {
+      "title": "带走",
+      "currentIndex": -1,
+      "rule": [
+        "打包",
+        "堂食"
+      ]
+    }
+  ],
+  "sellOut": false,
+  "type": "yinliao",
+  "pageNo": 10
+}

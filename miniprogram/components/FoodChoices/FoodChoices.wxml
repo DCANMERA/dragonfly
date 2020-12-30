@@ -1,0 +1,64 @@
+<view class="rules box-shadow">
+  <view class="container">
+    <text class="iconfont icon-close close"
+          bindtap="close">
+    </text>
+
+    <view class="title">
+      <view class="food-img">
+        <image class="auto-img"
+               src="{{item.img}}"
+               mode="scaleToFill">
+        </image>
+      </view>
+      <view class="info">
+        <view class=info-name">{{menu.name}}</view>
+        <view class="info-rule">已选择：{{rules}}</view>
+        <view class="info-price">￥{{menu.price}}</view>
+      </view>
+    </view>
+
+    <view class="content">
+
+      <!-- 数量 -->
+      <view class="count-wrap">
+        <view class="count-text">数量</view>
+        <view class="count-num">
+          <text class="iconfont icon-jian-yuankuang count"
+                data-count="-1"
+                catchtap="modifyCount">
+          </text>
+          <text class="count">{{currentProduct.count}}</text>
+          <text class="iconfont icon-jia-yuankuang count"
+                data-count="1"
+                catchtap="modifyCount">
+          </text>
+        </view>
+      </view>
+
+      <!-- 规格 -->
+      <view class="rule-content">
+        <view class="rule-item"
+              wx:for="{{menu.rules}}"
+              wx:key="index">
+          <view class="item-title line-ellipsis">{{item.title}}</view>
+          <view class="item-option line-ellipsis {{item.currentIndex == i ? 'active' : ''}}"
+                wx:for="{{item.rule}}"
+                wx:for-index="i"
+                wx:for-item="value"
+                wx:key="i"
+                data-current-index="{{item.currentIndex}}"
+                data-index="{{i}}"
+                data-rules-index="{{index}}"
+                catchtap="selectRule">
+            {{value}}
+          </view>
+        </view>
+      </view>
+
+      <view class="add">
+        <view catchtap="addShopcart">加入购物车</view>
+      </view>
+    </view>
+  </view>
+</view>

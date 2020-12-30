@@ -1,0 +1,28 @@
+<view class="order">
+  <view class="header {{tabIndex ? 'takeout' : 'eat-in'}}">
+    <view class="item {{tabIndex ? '' : 'active'}}"
+          catchtouchstart="toggleTab"
+          data-index="0">
+      堂食点单
+    </view>
+    <view class="item {{tabIndex ? 'active' : ''}}"
+          catchtouchstart="toggleTab"
+          data-index="1">
+      预定自取
+    </view>
+  </view>
+  <view class="container"
+        wx:if="{{orderData.length != 0 && tabIndex == 0}}">
+    <OrderItem wx:for="{{orderData}}"
+               wx:key="index"
+               item="{{item}}"
+               data-item="{{item}}"
+               catchtouchstart="toOrderDetail">
+    </OrderItem>
+  </view>
+  <view class="empty"
+        wx:else>
+    <text class="iconfont icon-zanwudingdanjilu"></text>
+    <text>暂无订单数据</text>
+  </view>
+</view>

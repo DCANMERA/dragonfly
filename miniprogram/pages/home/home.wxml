@@ -1,0 +1,128 @@
+<view class="home">
+
+  <!-- 顶部导航栏 -->
+  <view class="header">
+    <view class="busines-hours">
+      <text class="iconfont {{selectIndex ? 'icon-clock' : 'icon-add-seat'}} icon"></text>
+      <view class="hours">{{selectIndex ? '店铺营业时间' : '桌位号：'}}</view>
+      <text class="iconfont icon-enter"
+            hidden="{{selectIndex == 0}}"></text>
+    </view>
+    <view class="delivery">
+      <view class="btn line-ellipsis {{selectIndex == 0 ? 'active' : ''}}"
+            bindtap="toggleWay"
+            data-index="0">
+        堂食
+      </view>
+      <view class="btn line-ellipsis {{selectIndex == 1 ? 'active' : ''}}"
+            bindtap="toggleWay"
+            data-index="1">
+        外带
+      </view>
+    </view>
+  </view>
+
+  <!-- 内容区 -->
+  <view class="container"
+        wx:if="{{menuList.length != 0}}">
+
+    <!-- 菜品侧栏 -->
+    <view class="aisde">
+      <scroll-view scroll-y="true"
+                   style="height: 100%;">
+        <view class="sub-nav">
+          <NavItem wx:for="{{menuList}}"
+                   wx:key="index"
+                   data-index="{{index}}"
+                   data-item="{{item}}"
+                   nav-item="nav-item"
+                   class="{{activeAisdeMenu == index ? 'active' : ''}}"
+                   bindtap="toggleAisdeMenuList">
+            {{item.title}}
+          </NavItem>
+        </view>
+      </scroll-view>
+    </view>
+
+    <!-- 菜品列表 -->
+    <view class="content">
+      <view class="search">
+        <text class="iconfont icon-search"></text>
+        <input class="input"
+               type="text"
+               placeholder="搜索菜品"
+               bindfocus="toSearch"
+               catchtouchstart="toSearch" />
+      </view>
+      <scroll-view scroll-y="true"
+                   style="height: 100%;"
+                   scroll-into-view="{{toView}}">
+        <view id="{{item.type}}"
+              class="list-item"
+              wx:for="{{menuList}}"
+              wx:key="index">
+          <view class="title">{{item.title}}</view>
+          <MenuItem wx:for="{{item.list}}"
+                    wx:key="index"
+                    menu="{{item}}"
+                    bind:show-rules="toggleRules">
+          </MenuItem>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+
+  <!-- 菜品规格Popup -->
+  <Popup bind:show="toggleRules"
+         isShowPopup="{{isShowPopup}}">
+  </Popup>
+  <FoodChoices wx:if="{{isShowPopup && menu.length != 0}}"
+               bindclose="toggleRules"
+               bindaddShopcart="modifyShopcartCount"
+               item="{{menu}}">
+  </FoodChoices>
+
+  <!-- 购物车数据栏 -->
+  <view class="shop-wrap"
+        wx:if="{{isShowPopup && totle > 0 && menu.length == 0}}">
+    <view class="title">
+      <text class="tip">购物车</text>
+      <text class="subtip"
+            bindtap="removeAll">清空购物车</text>
+    </view>
+    <view class="shop-item"
+          wx:for="{{shopcartData}}"
+          wx:key="index">
+      <view class="item-name">{{item.name}}</view>
+      <view class="menu-info">
+        <text class="price">￥{{item.price}}</text>
+        <text class="iconfont icon-jian-yuankuang icon-jian"
+              data-index="{{index}}"
+              catchtap="decrease">
+        </text>
+        <text class="count">{{item.count}}</text>
+        <text class="iconfont icon-jia-yuankuang icon-jia"
+              data-index="{{index}}"
+              catchtap="increase">
+        </text>
+      </view>
+    </view>
+  </view>
+
+
+  <!-- 购物车按钮栏 -->
+  <view class="shop-cart box-shadow"
+        wx:if="{{totle > 0 && menuList.length != 0}}">
+    <view class="cart-info"
+          bindtap="showAllShopcartMenu">
+      <text class="iconfont icon-publishgoods_fill icon"></text>
+      <text class="price">￥{{totle}}</text>
+      <view class="bage"
+            hidden="{{shopcartCount == 0}}">{{shopcartCount}}</view>
+    </view>
+    <view class="submit"
+          bindtap="toPay">
+      结算
+    </view>
+  </view>
+</view>

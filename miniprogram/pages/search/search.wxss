@@ -1,0 +1,87 @@
+.search {
+  padding-top: 100rpx;
+}
+
+.search .header {
+  padding: 0 30rpx;
+  height: 92rpx;
+  box-shadow: none;
+  border-bottom: 1rpx solid #dedede;
+  display: flex;
+  align-items: center;
+}
+
+.search .header .wrap {
+  box-sizing: border-box;
+  flex: auto;
+  background-color: #eeeeee;
+  border-radius: 34rpx;
+  height: 68rpx;
+  padding: 20rpx 0;
+  position: relative;
+}
+
+.search .header .icon {
+  position: absolute;
+  left: 10rpx;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #999999;
+  font-size: 36rpx;
+  z-index: 2;
+}
+
+.search .header .icon:last-of-type {
+  right: 30rpx;
+  left: unset;
+  font-size: 28rpx;
+  color: #999999;
+}
+
+.search .header .wrap input {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin-left: 50rpx;
+  font-size: 30rpx;
+  z-index: 1;
+}
+
+.search .history {
+  padding: 20rpx;
+}
+
+.search .history .title {
+  text-align: left;
+  font-size: small;
+  color: #999999;
+  margin-bottom: 20rpx;
+}
+
+.search .history .item {
+  padding: 8rpx 16rpx;
+  border: 1rpx solid #dedede;
+  display: inline-block;
+  font-size: small;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+  margin-bottom: 10rpx;
+}
+
+.search .history>.item:first-of-type {
+  margin-left: 0;
+}
+
+.search .history>.item:last-of-type {
+  margin-right: 0;
+}
+
+.search .contanier {
+  padding: 20rpx;
+}
