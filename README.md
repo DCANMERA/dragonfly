@@ -14,7 +14,7 @@
 > 因个人号无法发布该类型小程序，故以体验版展示
 
 <a href="https://dcanmera.github.io" target="_blank">
-  <img src="dragonfly/dragonfly.jpg" alt="微信小程序体验码" style="width:100px;height:100px;"/>
+  <img src="https://dcanmera.github.io/dragonfly/dragonfly.jpg" alt="微信小程序体验码" style="width:100px;height:100px;"/>
 </a>
 
 # 项目架构
